@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".sample.basic.BasicActivity"></activity>
+        <activity android:name=".sample.basic.BasicActivity" />
+        <activity android:name=".sample.custombinding.CustomBindingActivity"></activity>
     </application>
 
 </manifest>
