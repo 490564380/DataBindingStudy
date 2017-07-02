@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.zhanghua.databindingstudy.R;
 import com.example.zhanghua.databindingstudy.sample.basic.BasicActivity;
+import com.example.zhanghua.databindingstudy.sample.collection.CollectionActivity;
 import com.example.zhanghua.databindingstudy.sample.custombinding.CustomBindingActivity;
 import com.example.zhanghua.databindingstudy.sample.include.IncludeActivity;
 
@@ -29,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
     public void openIncludes(View view) {
         startActivity(new Intent(this, IncludeActivity.class));
     }
+
+    public void openCollections(View view) {
+        startActivity(new Intent(this, CollectionActivity.class));
+    }
+
+
 
 
 }
