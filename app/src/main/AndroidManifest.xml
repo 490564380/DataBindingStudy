@@ -19,7 +19,8 @@
         <activity android:name=".sample.basic.BasicActivity" />
         <activity android:name=".sample.custombinding.CustomBindingActivity" />
         <activity android:name=".sample.include.IncludeActivity" />
-        <activity android:name=".sample.collection.CollectionActivity"></activity>
+        <activity android:name=".sample.collection.CollectionActivity" />
+        <activity android:name=".sample.resource.ResourceActivity"></activity>
     </application>
 
 </manifest>
