@@ -2,13 +2,13 @@ package com.example.zhanghua.databindingstudy.sample.basic;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
 import com.example.zhanghua.databindingstudy.R;
 import com.example.zhanghua.databindingstudy.databinding.ActivityBasicBinding;
 import com.example.zhanghua.databindingstudy.model.User;
+import com.example.zhanghua.databindingstudy.sample.BaseActivity;
 
-public class BasicActivity extends AppCompatActivity {
+public class BasicActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
