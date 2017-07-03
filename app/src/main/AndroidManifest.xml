@@ -18,16 +18,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".sample.basic.BasicActivity" />
-        <activity android:name=".sample.custombinding.CustomBindingActivity" />
-        <activity android:name=".sample.include.IncludeActivity" />
-        <activity android:name=".sample.collection.CollectionActivity" />
-        <activity android:name=".sample.resource.ResourceActivity" />
-        <activity android:name=".sample.observable.ObservableActivity" />
-        <activity android:name=".sample.viewWithIds.ViewWithIDsActivity" />
-        <activity android:name=".sample.viewstub.ViewStubActivity" />
-        <activity android:name=".sample.dynamic.DynamicActivity" />
-        <activity android:name=".sample.attributesetter.AttributeSettersActivity"></activity>
+        <activity
+            android:name=".sample.basic.BasicActivity"
+            android:label="BasicActivity" />
+        <activity
+            android:name=".sample.custombinding.CustomBindingActivity"
+            android:label="CustomBindingActivity" />
+        <activity
+            android:name=".sample.include.IncludeActivity"
+            android:label="IncludeActivity" />
+        <activity
+            android:name=".sample.collection.CollectionActivity"
+            android:label="CollectionActivity" />
+        <activity
+            android:name=".sample.resource.ResourceActivity"
+            android:label="ResourceActivity" />
+        <activity
+            android:name=".sample.observable.ObservableActivity"
+            android:label="ObservableActivity" />
+        <activity
+            android:name=".sample.viewWithIds.ViewWithIDsActivity"
+            android:label="ViewWithIDsActivity" />
+        <activity
+            android:name=".sample.viewstub.ViewStubActivity"
+            android:label="ViewStubActivity" />
+        <activity
+            android:name=".sample.dynamic.DynamicActivity"
+            android:label="DynamicActivity" />
+        <activity
+            android:name=".sample.attributesetter.AttributeSettersActivity"
+            android:label="AttributeSettersActivity" />
+        <activity android:name=".sample.converter.ConversionsActivity"
+            android:label="ConversionsActivity"/>
     </application>
 
 </manifest>

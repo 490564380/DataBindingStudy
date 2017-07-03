@@ -9,6 +9,7 @@ import com.example.zhanghua.databindingstudy.R;
 import com.example.zhanghua.databindingstudy.sample.attributesetter.AttributeSettersActivity;
 import com.example.zhanghua.databindingstudy.sample.basic.BasicActivity;
 import com.example.zhanghua.databindingstudy.sample.collection.CollectionActivity;
+import com.example.zhanghua.databindingstudy.sample.converter.ConversionsActivity;
 import com.example.zhanghua.databindingstudy.sample.custombinding.CustomBindingActivity;
 import com.example.zhanghua.databindingstudy.sample.dynamic.DynamicActivity;
 import com.example.zhanghua.databindingstudy.sample.include.IncludeActivity;
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openConverters(View view) {
-        startActivity(new Intent(this, ViewStubActivity.class));
+        startActivity(new Intent(this, ConversionsActivity.class));
     }
 
 
