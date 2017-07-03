@@ -2,12 +2,12 @@ package com.example.zhanghua.databindingstudy.sample.resource;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
 import com.example.zhanghua.databindingstudy.R;
 import com.example.zhanghua.databindingstudy.databinding.ResourceBinding;
+import com.example.zhanghua.databindingstudy.sample.BaseActivity;
 
-public class ResourceActivity extends AppCompatActivity {
+public class ResourceActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

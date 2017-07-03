@@ -2,18 +2,18 @@ package com.example.zhanghua.databindingstudy.sample.collection;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.SparseArray;
 
 import com.example.zhanghua.databindingstudy.R;
 import com.example.zhanghua.databindingstudy.databinding.ActivityCollectionBinding;
+import com.example.zhanghua.databindingstudy.sample.BaseActivity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class CollectionActivity extends AppCompatActivity {
+public class CollectionActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -3,15 +3,15 @@ package com.example.zhanghua.databindingstudy.sample.observable;
 import android.databinding.DataBindingUtil;
 import android.databinding.ObservableArrayMap;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.zhanghua.databindingstudy.R;
 import com.example.zhanghua.databindingstudy.databinding.ActivityObservableBinding;
 import com.example.zhanghua.databindingstudy.model.ObservableUser;
 import com.example.zhanghua.databindingstudy.model.PlainUser;
+import com.example.zhanghua.databindingstudy.sample.BaseActivity;
 
-public class ObservableActivity extends AppCompatActivity {
+public class ObservableActivity extends BaseActivity {
 
     private ObservableUser user = new ObservableUser();
     private PlainUser plainUser = new PlainUser();

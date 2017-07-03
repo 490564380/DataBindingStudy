@@ -21,7 +21,8 @@
         <activity android:name=".sample.include.IncludeActivity" />
         <activity android:name=".sample.collection.CollectionActivity" />
         <activity android:name=".sample.resource.ResourceActivity" />
-        <activity android:name=".sample.observable.ObservableActivity"></activity>
+        <activity android:name=".sample.observable.ObservableActivity" />
+        <activity android:name=".sample.viewWithIds.ViewWithIDsActivity"></activity>
     </application>
 
 </manifest>

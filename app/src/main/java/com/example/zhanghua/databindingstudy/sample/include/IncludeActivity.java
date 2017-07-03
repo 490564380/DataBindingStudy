@@ -2,7 +2,6 @@ package com.example.zhanghua.databindingstudy.sample.include;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -11,8 +10,9 @@ import android.widget.Toast;
 import com.example.zhanghua.databindingstudy.R;
 import com.example.zhanghua.databindingstudy.databinding.ActivityIncludeBinding;
 import com.example.zhanghua.databindingstudy.listener.OkListener;
+import com.example.zhanghua.databindingstudy.sample.BaseActivity;
 
-public class IncludeActivity extends AppCompatActivity implements OkListener {
+public class IncludeActivity extends BaseActivity implements OkListener {
 
     private ActivityIncludeBinding binding;
 

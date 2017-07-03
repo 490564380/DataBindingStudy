@@ -12,6 +12,7 @@ import com.example.zhanghua.databindingstudy.sample.custombinding.CustomBindingA
 import com.example.zhanghua.databindingstudy.sample.include.IncludeActivity;
 import com.example.zhanghua.databindingstudy.sample.observable.ObservableActivity;
 import com.example.zhanghua.databindingstudy.sample.resource.ResourceActivity;
+import com.example.zhanghua.databindingstudy.sample.viewWithIds.ViewWithIDsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -45,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, ObservableActivity.class));
     }
 
-
-
-
+    public void openViewWithIDs(View view) {
+        startActivity(new Intent(this, ViewWithIDsActivity.class));
+    }
 
 
 }
