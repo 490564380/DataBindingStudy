@@ -10,6 +10,7 @@ import com.example.zhanghua.databindingstudy.sample.basic.BasicActivity;
 import com.example.zhanghua.databindingstudy.sample.collection.CollectionActivity;
 import com.example.zhanghua.databindingstudy.sample.custombinding.CustomBindingActivity;
 import com.example.zhanghua.databindingstudy.sample.include.IncludeActivity;
+import com.example.zhanghua.databindingstudy.sample.observable.ObservableActivity;
 import com.example.zhanghua.databindingstudy.sample.resource.ResourceActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,6 +40,14 @@ public class MainActivity extends AppCompatActivity {
     public void openResources(View view) {
         startActivity(new Intent(this, ResourceActivity.class));
     }
+
+    public void openObservable(View view) {
+        startActivity(new Intent(this, ObservableActivity.class));
+    }
+
+
+
+
 
 
 }
