@@ -8,4 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <declare-styleable name="NameCard">
+        <attr name="age" format="integer" />
+    </declare-styleable>
+
 </resources>

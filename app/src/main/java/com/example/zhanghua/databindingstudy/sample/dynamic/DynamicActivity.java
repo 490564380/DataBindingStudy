@@ -14,7 +14,7 @@ public class DynamicActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ActivityDynamicBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_dynamic);
-//        binding.recyclerView.setHasFixedSize(true);
+        binding.recyclerView.setHasFixedSize(true);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         binding.recyclerView.setLayoutManager(linearLayoutManager);

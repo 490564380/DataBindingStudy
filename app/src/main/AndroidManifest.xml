@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.zhanghua.databindingstudy">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,7 +26,8 @@
         <activity android:name=".sample.observable.ObservableActivity" />
         <activity android:name=".sample.viewWithIds.ViewWithIDsActivity" />
         <activity android:name=".sample.viewstub.ViewStubActivity" />
-        <activity android:name=".sample.dynamic.DynamicActivity"></activity>
+        <activity android:name=".sample.dynamic.DynamicActivity" />
+        <activity android:name=".sample.attributesetter.AttributeSettersActivity"></activity>
     </application>
 
 </manifest>

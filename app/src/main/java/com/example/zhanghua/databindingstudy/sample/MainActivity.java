@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.zhanghua.databindingstudy.R;
+import com.example.zhanghua.databindingstudy.sample.attributesetter.AttributeSettersActivity;
 import com.example.zhanghua.databindingstudy.sample.basic.BasicActivity;
 import com.example.zhanghua.databindingstudy.sample.collection.CollectionActivity;
 import com.example.zhanghua.databindingstudy.sample.custombinding.CustomBindingActivity;
@@ -61,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openAttributeSetters(View view) {
-        startActivity(new Intent(this, ViewStubActivity.class));
+        startActivity(new Intent(this, AttributeSettersActivity.class));
     }
 
     public void openConverters(View view) {
