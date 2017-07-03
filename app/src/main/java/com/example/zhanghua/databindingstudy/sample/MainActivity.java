@@ -9,6 +9,7 @@ import com.example.zhanghua.databindingstudy.R;
 import com.example.zhanghua.databindingstudy.sample.basic.BasicActivity;
 import com.example.zhanghua.databindingstudy.sample.collection.CollectionActivity;
 import com.example.zhanghua.databindingstudy.sample.custombinding.CustomBindingActivity;
+import com.example.zhanghua.databindingstudy.sample.dynamic.DynamicActivity;
 import com.example.zhanghua.databindingstudy.sample.include.IncludeActivity;
 import com.example.zhanghua.databindingstudy.sample.observable.ObservableActivity;
 import com.example.zhanghua.databindingstudy.sample.resource.ResourceActivity;
@@ -52,6 +53,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openViewStub(View view) {
+        startActivity(new Intent(this, ViewStubActivity.class));
+    }
+
+    public void openDynamicVariables(View view) {
+        startActivity(new Intent(this, DynamicActivity.class));
+    }
+
+    public void openAttributeSetters(View view) {
+        startActivity(new Intent(this, ViewStubActivity.class));
+    }
+
+    public void openConverters(View view) {
         startActivity(new Intent(this, ViewStubActivity.class));
     }
 
